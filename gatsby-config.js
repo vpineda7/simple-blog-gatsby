@@ -47,10 +47,20 @@ module.exports = {
             resolve: `gatsby-remark-images`, 
             options: {
               maxWidth: 1200, 
-              
+
             }
           }
         ]
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `roboto mono`, 
+          `muli\:400,400,700,7009`
+        ], 
+        dipslay: "swa"
       },
     },
 
