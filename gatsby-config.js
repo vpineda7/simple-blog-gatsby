@@ -8,7 +8,7 @@ module.exports = {
 
   plugins: [
     {
-      source: `gatsby-source-filesystem`,
+      resolve: `gatsby-source-filesystem`,
       options: {
         name: `pages`, 
         path: `${__dirname}/src/pages`
@@ -17,7 +17,7 @@ module.exports = {
       
     },
     {
-      source: `gatsby-source-filesystem`,
+      resolve: `gatsby-source-filesystem`,
       options: {
         name: `posts`, 
         path: `${__dirname}/src/posts`
@@ -26,7 +26,7 @@ module.exports = {
       
     },
     {
-      source: `gatsby-source-filesystem`,
+      resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`, 
         path: `${__dirname}/src/images`
