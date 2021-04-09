@@ -1,0 +1,50 @@
+npm run develop
+y
+git init
+git add . 
+commit -m "First commit"
+git commit -m "First commit"
+git status
+git add . 
+commit -m "First commit"
+git commit -m "First commit"
+git status
+git remote add origin https://github.com/vpineda7/simple-blog-gatsby.git
+git push -u origin master
+npm i gatsby-source-filesystem
+git add . 
+git status
+git commit -m "Second commint - add gatsby-source-filesystem and configured folders"
+git push -u origin master
+npm install gatsby-transformer-sharp gatsby-plugin-sharp
+npm install gatsby-plugin-sharp
+npm install gatsby-plugin-manifest
+npm install gatsby-plugin-sharp gatsby-plugin-manifest gatsby-remark-images-contentful gatsby-source-contentful gatsby-transformer-sharp gatsby-transformer-sqip
+npm install gatsby-plugin-mdx @mdx-js/mdx @mdx-js/react
+npm i gatsby-remark-images
+git status
+git add . 
+git commit -m "add gastby mdx plugin and sharp library"
+git push -u origin master
+npm install gatsby-plugin-google-font
+npm install gatsby-plugin-google-fonts
+git add . && git commit -m "add google fonts plugin"
+git push -u origin master
+npm run develop
+npm i gatsby-source-filesystem
+npm audit fix
+npm i gatsby-source-filesystem
+npm run develop
+npm install gatsby-plugin-mdx @mdx-js/mdx @mdx-js/react
+npm run develop
+y
+git add . && git commit -m "added initial post components"
+git push -u origin master
+npm install gatsby-plugin-styled-components styled-components babel-plugin-styled-components
+git add . && git commit -m "added styled components"
+git push -u origin master
+git add . && git commit -m "added initial post components2"
+git push -u origin master
+npm run develop
+y
+doskey /history >> doskehist05-04-21.txt

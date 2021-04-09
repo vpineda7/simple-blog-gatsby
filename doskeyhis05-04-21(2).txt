@@ -1,0 +1,43 @@
+cd Desktop
+ls -c
+cd projects
+ls c
+ls -c
+ls -c | more
+ls -c | more -d
+ls -lt | more 
+ls -ltd | more 
+ls -dlt  more 
+ls -lt -d | more 
+ls  -d | more 
+ls  -d
+ls -R | more 
+ls -*
+ls *
+ls -R
+ls -d */
+ls -d *
+ls -d 
+ls -d *
+ls -d /
+ls -d
+ls -dlt  more 
+ls -c | more -d
+ls -c | more
+nod --version
+node --version
+mkdir blog_gastby
+cd blog_gastby
+npm install -g gatsby-cli
+gatsby -help
+gatsby --help
+gatsby -v
+gatsby new simple-mdx-blog https://github.com/gatsbyjs/gatsby-starter-hello-world
+y
+cd ..
+gatsby new simple-blog-gatsby https://github.com/gatsbyjs/gatsby-starter-hello-world
+code .
+cd simple-blog-gatsby
+code .
+doskey /h
+doskey /h >> doskeyhis05-04-21(2).txt
